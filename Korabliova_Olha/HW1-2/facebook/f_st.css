@@ -1,0 +1,348 @@
+* {
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+body {
+    background-color: #E9EBEE;
+}
+
+time {
+    color: #90949C;
+}
+
+img.userpic {
+    border-radius: 50%;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a.h-icon i{
+    color: #1A2947;
+    margin: 5px;
+    font-size: 25px;
+}
+
+a.h-icon:hover i{
+    color: #0D1524;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    background-color: #4267B2;
+    z-index: 1;
+}
+
+header * {
+    position: fixed;
+    top: 10px;
+}
+
+a#logo {
+    margin: 5px;
+    left: 5px;
+    font-size: 30px;
+}
+
+header input[type="search"] {
+    left: 45px;
+    margin: 5px;
+    width: 300px;
+    height: 24px;
+}
+
+header i.fa.fa-search {
+    left: 350px;
+    margin: 5px 5px 5px 2px;
+    background-color: #F6F7F9;
+    font-size: 15px;
+    padding: 5px 15px 5px 10px;
+    border-radius: 2px;
+}
+
+header i.fa.fa-search:hover {
+    background-color: #D6D6D6;
+}
+
+a#user-name .userpic{
+    left: calc(390px + 15%);
+    /*border-right: #3B5CA0 solid 1px;*/
+    /*padding: 0 10px 0 10px;*/
+    /*margin-right: 5px;*/
+    width: 30px;
+}
+
+a#user-name span {
+    left: calc(425px + 15%);
+    border-right: #3B5CA0 solid 1px;
+    padding: 2px 10px 2px 10px;
+    margin-top: 5px;
+    font-size: 18px;
+    font-family: Gill Sans, sans-serif;
+    font-weight: 500;
+    color: white;
+}
+
+a#home {
+    left: calc(483px + 15%);
+    border-left: #3B5CA0 solid 1px;
+}
+
+a#user-name, a#home {
+    padding: 2px 10px 2px 10px;
+    margin-top: 5px;
+    font-size: 18px;
+    font-family: Gill Sans, sans-serif;
+    font-weight: 500;
+    color: white;
+}
+
+/*a#home:hover {*/
+    /*padding: 2px 10px 2px 10px;*/
+    /*background-color: #3B5CA0;*/
+    /*border-radius: 2px;*/
+/*}*/
+
+a#friend-req {
+    left: calc(580px + 15%);
+}
+
+a#messages {
+    left: calc(620px + 15%);
+}
+
+a#notifications {
+    left: calc(660px + 15%);
+}
+a#notifications i {
+    border-right: #3B5CA0 solid 2px;
+    padding-right: 10px;
+}
+
+a#help {
+    left: calc(700px + 15%);
+    margin: 5px;
+}
+
+a#other-info {
+    left: calc(740px + 15%);
+    right: auto;
+}
+
+main nav.left_nav h3 {
+    color: #4B4F56;
+}
+
+main .left_nav{
+    position: fixed;
+    top: 50px;
+    left: 0;
+    width: 250px;
+    margin: 10px;
+    bottom: 0;
+    overflow: auto;
+    line-height: 25px;
+}
+
+main #fl-item2 {
+    position: fixed;
+    display: block;
+    margin-top: 10px;
+    margin-left: 20px;
+    left: 250px;
+    top: 50px;
+    bottom: 0;
+    width: 600px;
+    overflow: auto;
+    padding: 10px;
+}
+
+main #fl-item3 {
+    position: fixed;
+    margin: 10px;
+    top: 50px;
+    left: 900px;
+    bottom: 0;
+    right: auto;
+    overflow: auto;
+}
+
+div#facebook-post section{
+    display: block;
+    background-color: white;
+    margin: 10px auto 10px auto ;
+    padding: 20px;
+    border: #dddfe2 solid 1px;
+    border-radius: 3px;
+}
+
+div#make-post {
+    background-color: #F6F7F9;
+    padding: 10px;
+    border-bottom: #dddfe2 solid 1px;
+    border-radius: 3px 3px 0 0;
+    font-weight: bold;
+}
+
+section#post-field {
+    display: block;
+    border: #dddfe2 solid 1px;
+    border-radius: 3px;
+}
+
+section form, div#add-content {
+    padding: 10px;
+    size: 50px;
+    background: white;
+}
+
+div#add-content {
+    padding: 10px;
+    border-top: #dddfe2 solid 1px;
+}
+
+div#add-content a{
+    background-color: #F6F7F9;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 5px;
+}
+
+div#add-content a:hover {
+    background-color: #DDDFE2;
+}
+
+main a.user-profile:hover, a.add-info:hover {
+    text-decoration: underline;
+}
+
+a:not(.see-more):link, a:not(.see-more):visited {
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+}
+
+nav.left_nav a:not(.see-more):hover{
+    background-color: #F6F7F9;
+    text-decoration: none;
+    padding: 5px;
+    border: #dddfe2 solid 1px;
+    border-radius: 3px;
+}
+
+nav.left_nav a:not(.see-more):active {
+    background-color: #DDDFE2;
+    text-decoration: none;
+    padding: 5px;
+}
+
+div#fl-item3 a, .like-com-share i {
+    color: #616770;
+}
+
+div.new-story img{
+    height: 45px;
+    border: #557AD5 solid 2px;
+    border-radius: 50%;
+    padding: 2px;
+}
+
+div#fl-item3 div {
+    display: inline-block;
+    margin: 0 3px 0 3px;
+}
+
+div#fl-item3 section#stories div:not(.new-story) {
+    background-color: #F6F7F9;
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+}
+
+section#stories span, section#friend-suggestion span {
+    color: #90949C;
+}
+
+section#stories {
+    padding: 8px;
+    border: #dddfe2 solid 1px;
+    border-radius: 3px;
+    background-color: white;
+}
+
+section#unread-notif a, a.language:not(#eng),
+div#facebook-post a.user-profile, .who-liked i,
+main a.user-profile, main a.add-info {
+    color: #365899;
+}
+
+section#unread-notif, section#friend-suggestion {
+    border: #dddfe2 solid 1px;
+    border-radius: 3px;
+    background-color: white;
+    margin: 10px auto 10px auto;
+}
+
+section#unread-notif li:hover {
+    background-color: #F6F7F9;
+}
+
+section#friend-suggestion {
+    display: block;
+    padding: 8px;
+}
+
+section#friend-suggestion section {
+    border-bottom: #dddfe2 solid 1px;
+}
+
+section#friend-suggestion img.userpic{
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+
+section#friend-suggestion a.user-profile {
+    font-family: "Arial", sans-serif;
+    font-size: 15px;
+    color: #365899;
+    font-weight: 600;
+}
+
+section#friend-suggestion a:not(.user-profile) {
+    position: static;
+    padding: 2px;
+    margin: 10px 0 5px 10px;
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+}
+
+section#friend-suggestion button {
+    margin: 0 0 5px 10px;
+}
+
+a.language:not(#eng):hover {
+    text-decoration: underline;
+}
+
+section#facebook-info section {
+    margin: 10px auto 5px auto;
+    border: #dddfe2 solid 1px;
+    border-radius: 3px;
+    background-color: white;
+    padding: 5px;
+}
+
+aside {
+    color: #616770;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
